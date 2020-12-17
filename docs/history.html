@@ -1,10 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/internetfavicon.png">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Home</title>
 </head>
 <body>
-
+<nav class="navbar">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">The Internet</a>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="history.html">History of the Internet</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            How the Internet Works
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="domain.html">DNS and ICANN</a>
+                            <a class="dropdown-item" href="ip_address.html">IP Addresses, Packets and Routing</a>
+                            <a class="dropdown-item" href="https.html">HTTP and HTTPS Protocols</a>
+                            <a class="dropdown-item" href="whc.html">W3C, HTML and CSS</a>
+                        </div>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</nav>
+<div class="container">
+    <h1>The History of the Internet</h1>
+    <h6>Go through the important events that led to the internet of today</h6>
+</div>
+<div class="timeline">
+    <div class="timeline-container left">
+        <div class="content">
+            <h2>Feb. 1958</h2>
+            <p>Space exploration assigned to Advanced Research Projects Agency (ARPA) created by the U.S. government</p>
+        </div>
+    </div>
+    <div class="timeline-container right">
+        <div class="content">
+            <h2>July 1961</h2>
+            <p>Leonard Kleinrock of MIT writes the first paper and proposes the idea on the packet switching theory</p>
+        </div>
+    </div>
+    <div class="timeline-container left">
+        <div class="content">
+            <h2>Aug. 1962</h2>
+            <p>J.C.R. Licklider writes about his Intergalactic Network Concept of networked computers and becomes the first head of computer research at ARPA.</p>
+        </div>
+    </div>
+    <div class="timeline-container right">
+        <div class="content">
+            <h2>1966</h2>
+            <p>The director of ARPA's computer research program, Robert Taylor officially begins the ARPANET projects, the foundation for today's internet.</p>
+        </div>
+    </div>
+    <div class="timeline-container left">
+        <div class="content">
+            <h2>Oct. 1969</h2>
+            <p>The first data packets sent between networked computers between the two ARPANET sites at UCLA and Stanford Research Institute.</p>
+        </div>
+    </div>
+    <div class="timeline-container right">
+        <div class="content">
+            <h2>Oct. 1972</h2>
+            <p>The first public demonstration of the ARPANET at the International Computer Communication Conference (ICCC) is conducted by Bob Kahn.</p>
+        </div>
+    </div>
+    <div class="timeline-container left">
+        <div class="content">
+            <h2>May 1974</h2>
+            <p>Vint Cerf and Bob Kahn create "A Protocol for Packet Network Interconnection" which explains the design of a Transmission Control Protocol and coins the term "Internet" for the first time.</p>
+        </div>
+    </div>
+    <div class="timeline-container right">
+        <div class="content">
+            <h2>Nov. 1983 </h2>
+            <p>Jon Postel, Paul Mockapedis, and Craig Partridge design the Domain Name System (DNS).</p>
+            <a class="btn btn-primary" href="domain.html" role="button" style="margin-top: 1%">More about DNS</a>
+        </div>
+    </div>
+    <div class="timeline-container left">
+        <div class="content">
+            <h2>1990-1991</h2>
+            <p>Tim Berners-Lee creates the World Wide Web (WWW) at CERN, a European Physical Laboratory, and it is opened to the public.</p>
+            <a class="btn btn-primary" href="internet.html" role="button" style="margin-top: 1%">More about WWW</a>
+        </div>
+    </div>
+    <div class="timeline-container right">
+        <div class="content">
+            <h2>1996</h2>
+            <p>Microsoft and Netscape go head-to-head in what is known as the First Browser War, a competition for dominance in the usage share of web browsers.</p>
+            <a class="btn btn-primary" href="internet.html" role="button" style="margin-top: 1%">More about Browser Wars</a>
+        </div>
+    </div>
+</div>
+<footer class="footer mt-auto py-3">
+    <div class="container">
+        <a href="https://github.com/juliaag831"><img src="images/githublogo.png" width="30" height="30" alt="Git Hub Logo"></a>
+        <a href="https://www.linkedin.com/in/julia-marie-guinto-a7769a201/"><img src="images/linkedinlogo.png" width="30" height="30" alt="Linked In Logo"></a>
+        <p>Julia-Marie Guinto © 2020</p>
+    </div>
+</footer>
 </body>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<!-- Always remember to call the above files first before calling the bootstrap.min.js file -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 </html>

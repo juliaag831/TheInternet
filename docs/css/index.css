@@ -1,3 +1,34 @@
-body{
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Arvo', sans-serif;
+}
+
+
+nav{
+    background-color: #A0B8DB;
+    font-family: 'Arvo', sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'Arvo', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight:900;
+    color: black;
+}
+
+nav ul li a{
+    color: black;
+    font-size:22px;
+    margin: auto 10px;
+}
+
+footer{
+    background-color: #A0B8DB;
+    text-align: center;
 }
