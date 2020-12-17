@@ -51,7 +51,7 @@ nav ul li a{
 .post-title:hover{
     color: #A0B8DB;
 }
-.col-4 img{
+.col img{
     position: center;
     max-width: 100%;
     height: auto;
