@@ -26,8 +26,36 @@ nav ul li a{
     color: black;
     font-size:22px;
     margin: auto 10px;
+
+}#myCarousel .carousel-inner .carousel-item {
+     height: 20rem;
+ }
+
+.black-overlay{position:absolute;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0,0.6)
 }
 
+.post-title{
+    color:black;
+}
+
+.post-title:visited
+{
+    color:gray;
+}
+
+.post-title:hover{
+    color: #A0B8DB;
+}
+.col-4 img{
+    position: center;
+    max-width: 100%;
+    height: auto;
+}
 footer{
     background-color: #A0B8DB;
     text-align: center;
