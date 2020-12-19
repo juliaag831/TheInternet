@@ -1,4 +1,4 @@
-#ISS117 Project
+IS117 Project
 
 A website that combines your how the Internet works site content with the history of the Internet content to create the most engaging and content rich site that you can, which demonstrates your personal website development ability and knowledge of the Internet. 
 
