@@ -1,10 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8XETLKVMSS"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-8XETLKVMSS');
+    </script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/internetfavicon.png">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/internetworks.css">
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <title>W3C, HTML and CSS</title>
 </head>
 <body>
-
+<nav class="navbar">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" width="30" height="30" class="d-inline-block align-top">
+        </a>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="history.html">History of the Internet</a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            How the Internet Works
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="domain.html">DNS and ICANN</a>
+                            <a class="dropdown-item" href="ip_address.html">IP Addresses, Packets and Routing</a>
+                            <a class="dropdown-item" href="https.html">HTTP and HTTPS Protocols</a>
+                            <a class="dropdown-item" href="whc.html">W3C, HTML and CSS</a>
+                        </div>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</nav>
+<!-- Content -->
+<div class="container">
+    <div class="row" style="margin-top: 2rem">
+        <div class="col-8">
+            <h1>Browser Wars</h1>
+            <p>
+                Once the internet was opened up to the public in 1993, many became curious about what it was capable of. Marc
+                Andreessen, a computer science graduate student from the University of Illinois, and his friends became curious
+                about the World Wide Web. They were able to create the internet’s first user-friendly, graphical web browser,
+                MOSAIC, and put it online for everyone to download. Although it was quite successful, they needed money to make the
+                browser global, which was when Jim Clark, owner of Silicon Graphics, stepped in and began working with MOSAIC’s
+                creators. By 1994, they were able to launch a software company, Netscape Communications. With the goal of building a
+                new browser and making the internet the center of commerce and communication, Netscape quickly worked to launch
+                their own web browser, Navigator, before any competitor launched their own before them, like the most powerful
+                Microsoft.
+            </p>
+            <p>
+                Bill Gates and his company Microsoft were the lead in computer business at the time with their PCs and Windows
+                software. They were aware of Netscape’s release, but did not do anything about it until Navigator reached over a
+                million downloads. It did not take long for Gates to realize the web was something Microsoft needed to take over as
+                well, as Netscape was becoming a rising competitor. This realization marked the beginning of what was known as the
+                Browser Wars.
+            </p>
+            <p>
+                As Navigator’s success kept going, in 1995, Microsoft proposed an offer to Netscape to work together, which
+                apparently ended in Netscape’s decline and a heated debate. Netscape’s revenue continued to skyrocket with a
+                projected 60 to 80 million dollars and on the day of their initial public offer, their stock went through the roof;
+                it was reaching the title of the fastest growing software company ever. Marc Andreesen felt as if Microsoft had been
+                beaten and spoke very low of them. Gates and his team were completely insulted and lit a fire under them to dominate
+                Netscape.
+            </p>
+            <p>
+                By the end of 1995, Microsoft released their own browser, Internet Explorer, which Gates made known that it was
+                going to be used to destroy Netscape. Microsoft’s team working with Internet explorer had many advantages with their
+                financial resources and talented coders. This allowed for them to catch up to Netscape quickly. They tracked
+                Netscape’s every move and copied it, continued releasing new versions of Internet Explorer, and worked day and night
+                to make sure that their browser would not lose. Gates even took it a step further and hired salesmen to sell the
+                browser to every Microsoft customer, who used dark, hidden tactics to stop PC manufacturers from installing anything
+                but Internet Explorer. Netscape struggled with profits and began going downhill. Due to Internet Explorer’s growing
+                popularity and Microsoft’s billions of dollars in worth, the browser was made free with Windows, a power move by
+                Microsoft.
+            </p>
+            <p>
+                By September 1997, Microsoft was back in top; Netscape had been making single figures and had to be acquired by AOL,
+                ending their fight in the Browser Wars. But, Microsoft continued to fight with the government in an Antitrust
+                lawsuit, started by their Netscape enemies. They were accused of using their monopoly to prevent consumers from
+                using Netscape products, which contributed to the end of Netscape. It was brought to court and Gates was guilty.
+                They initially wanted Microsoft to be broken up, which caused its value to plunge to 30 billion overnight. Seeing
+                this happen the court retracted their idea, and Microsoft continued its success with new CEO Steve Ballmer.
+            </p>
+        </div>
+        <div class="col-4">
+            <div style="margin-top: 4rem">
+                <img src="https://images.unsplash.com/photo-1570063578733-6a33b69d1439?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80" style="width:18rem" alt="Microsoft Building">
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- End Content -->
+    <!-- Footer-->
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <a href="https://github.com/juliaag831"><img src="images/githublogo.png" width="30" height="30" alt="Git Hub Logo"></a>
+            <a href="https://www.linkedin.com/in/julia-marie-guinto-a7769a201/"><img src="images/linkedinlogo.png" width="30" height="30" alt="Linked In Logo"></a>
+            <p>Julia-Marie Guinto © 2020</p>
+        </div>
+    </footer>
+    <!-- End footer-->
 </body>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<!-- Always remember to call the above files first before calling the bootstrap.min.js file -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 </html>

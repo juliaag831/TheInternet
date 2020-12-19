@@ -1,0 +1,22 @@
+nav{
+    background-color: #A0B8DB;
+    font-family: 'Arvo', sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'Arvo', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight:900;
+    color: black;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 20px;
+    margin: auto 10px;
+}
+footer{
+    background-color: #A0B8DB;
+    text-align: center;
+}
