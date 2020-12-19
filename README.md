@@ -6,11 +6,13 @@ Website Link: https://juliaag831.github.io/TheInternet/index.html
 
 Figma Design: https://www.figma.com/file/LFNCNTGXEaClfaYIKMdwtz/The-Internet?node-id=1%3A2
 
+Design PDF: https://github.com/juliaag831/TheInternet/blob/master/docs/theinternet-design.pdf
+
 PDF Before: 
 
-History of the Internet Before:
+History of the Internet Before: https://github.com/juliaag831/TheInternet/blob/master/docs/History%20of%20the%20Internet%20Site%20Before.pdf
 
-How the Internet Works Before:
+How the Internet Works Before: https://github.com/juliaag831/TheInternet/blob/master/docs/howtheinternetworksbefore.pdf
 
-PDF After:
+PDF After: https://github.com/juliaag831/TheInternet/blob/master/docs/theinternetafter.pdf
 
