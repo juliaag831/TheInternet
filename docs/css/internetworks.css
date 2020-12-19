@@ -28,6 +28,14 @@ nav ul li a {
     margin: auto 10px;
 }
 
+.col-8 h1{
+    font-family: 'Arvo', sans-serif;
+}
+
+.col-8 p{
+    font-family: 'Arvo', sans-serif;
+}
+
 
 footer{
     background-color: #A0B8DB;
